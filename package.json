@@ -11,6 +11,7 @@
   },
   "files": [],
   "scripts": {
+    "postinstall": "bower install",
     "webpack": "webpack --progress --bail",
     "webpack:watch": "webpack --progress --watch",
     "webpack:watch:debug": "DEBUG=purs-loader webpack --progress --watch",
@@ -26,5 +27,8 @@
     "source-map-loader": "^0.1.5",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
   }
 }
