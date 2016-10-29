@@ -7,3 +7,4 @@ output/
 bundle.js
 bundle.js.map
 psc.tix
+*.iml
